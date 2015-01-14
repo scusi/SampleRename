@@ -7,10 +7,14 @@ It is meant to be used for malware research.
 
 ## Usage
 
- go run SampleRename.go bar foo.txt test.pdf
+ `go run SampleRename.go bar foo.txt test.pdf`
 
 ## Install
 
- go install SampleRename.go
+ `go install SampleRename.go`
+
+After install you can all it like this
+
+ `SampleRename bar foo.txt test.pdf`
 
 
