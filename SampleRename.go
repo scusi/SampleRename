@@ -29,7 +29,7 @@ func pathValidator(ipath string) (opath string) {
 }
 
 func readFile(fname string) (data []byte) {
-		fname = pathValidator(fname)
+		//fname = pathValidator(fname)
 		f, err := os.Open(fname)
 		check(err)
 		defer f.Close()
