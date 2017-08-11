@@ -13,7 +13,7 @@ It is meant to be used for malware research.
 
  `go install SampleRename.go`
 
-After install you can all it like this
+After install you can call it like this
 
  `SampleRename bar foo.txt test.pdf`
 
